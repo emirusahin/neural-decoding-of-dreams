@@ -8,7 +8,7 @@ provides a framework for addressing a fundamental question in neuroscience: how 
 encode sensory and motor experiences through its activity? Neural decoding interprets which 
 properties of stimuli are encoded in specific brain regions, offering insights into cognitive processes 
 such as imagery, memory, and dreaming (van Gerven et al., 2019 p. 379). 
-<br> <br>
+<br><br>
 Machine learning is a common approach for creating "neural decoders". These algorithms 
 are trained to predict stimuli from previously observed brain activity for different stimuli (van Gerven 
 et al., 2019). The methods have demonstrated various levels of statistically significant success in 
@@ -19,7 +19,7 @@ and Güçlütürk et al. (2017) reconstructed pictures of observed faces.
 This paper focuses on the application of neural decoding to dream research. By examining 
 current methodologies and identifying limitations, this paper explores the future potential of 
 decoding abstract and multimodal experiences during sleep. 
-<br>
+<br><br>
 ## Neural decoding of Dreams 
 Research on the neural decoding of dreams is an emerging field, with a limited number of 
 laboratories actively contributing to this area. Notably, the Kamitani Laboratory at Kyoto University 
@@ -32,7 +32,7 @@ olfactory, and gustatory experiences; and motor activities—has yet to be devel
 methodologies focus primarily on visual elements, leaving other sensory and cognitive aspects less 
 explored. In this section, we analyze the progress in decoding visual stimuli from dreams and 
 discuss the potential for integrating other sensory modalities into future dream decoding research. 
-<br>
+<br><br>
 ### Decoding Visual Stimuli in Dreams 
 Horikawa et al. (2013) explored how the brain represents visual content during dreams, 
 using machine-learning models to decode neural activity. The authors focused on the hypnagogic 
@@ -41,13 +41,13 @@ participants were frequently awakened during this phase to report their visual e
 were then mapped onto a lexical database of visual concepts. Functional magnetic resonance 
 imaging (fMRI) data collected immediately before awakening were used to identify patterns of brain 
 activity associated with specific visual imagery. 
-<br>
+<br><br>
 Horikawa et al. (2013) hypothesized that the visual cortical activity associated with 
 perception while awake might share patterns with visual imagery during sleep. To test this, they 
 trained decoding models on brain activity induced by viewing real images. These models were then 
 applied to brain activity recorded during sleep, with the aim of classifying and identifying dream 
 content. 
-<br>
+<br><br>
 The study demonstrated that decoding visual content during dreams via brain activity 
 patterns is feasible, achieving an average accuracy of 60% for distinguishing between two visual 
 categories, significantly exceeding the chance level of 50%. For pairs of visual categories that were 
@@ -59,7 +59,7 @@ simultaneously, decoding performance varied across categories, with some exceedi
 levels. Importantly, the study highlighted a strong overlap in brain activity patterns between wakeful 
 perception and dream imagery, reinforcing the hypothesis that shared neural mechanisms underlie 
 both experiences (Horikawa et al., 2013). 
-<br>
+<br><br>
 In a follow-up study, Horikawa & Kamitani (2016) extended this work by incorporating 
 features derived from deep neural networks (DNNs) to investigate hierarchical visual 
 representations in the brain. Using decoders trained on DNN-derived features from perception 
@@ -70,7 +70,7 @@ object categories could be identified at above-chance levels, with certain brain
 lateral occipital complex and fusiform face area) outperforming others. This study demonstrated 
 that dreams recruit hierarchical visual representations similar to those involved in perception 
 (Horikawa & Kamitani, 2016). 
-<br>
+<br><br>
 ### Extending neural decoding to other modalities of dreaming 
 While visual stimuli in dreams can be decoded above chance levels, the decoding of other 
 modalities, such as motor, auditory, olfactory, and gustatory experiences, remains underexplored. 
@@ -92,7 +92,7 @@ combinations, achieved accuracies as high as 99% when activation patterns of app
 neurons were used (Shin et al., 2009). While these studies do not directly address dream decoding, 
 the strong correlations between awake and dreamed motor activity, as demonstrated by Dresler et 
 al. (2011), suggest that similar methods could be applied to dream decoding. 
-<br>
+<br><br>
 The extension of decoding techniques to auditory, olfactory, and gustatory modalities 
 presents additional challenges. King (2006) demonstrated that auditory imagery, such as imagining 
 or anticipating sounds, elicits neural activity patterns in the auditory cortex similar to those evoked 
@@ -102,7 +102,7 @@ Although these studies provide valuable insights, the lack of direct evidence li
 during dreamed auditory experiences to waking experiences limits their applicability to dream 
 decoding. Future research should prioritize identifying overlaps between real and dreamed auditory 
 stimuli to establish a foundation for decoding dreamed auditory content. 
-<br>
+<br><br>
 Olfactory and gustatory modalities are even less explored in the context of neural decoding. 
 Bensafi et al. (2003) reported that imagining odors activates neural substrates in the piriform 
 cortex, similar to actual olfactory perception. However, there is no evidence yet connecting such 
@@ -112,14 +112,14 @@ that visual and auditory experiences dominate dream content (Zadra et al., 1998)
 on olfactory and gustatory decoding is perhaps unsurprising. Nevertheless, expanding decoding 
 efforts to these modalities could enhance our understanding of the multisensory nature of 
 dreaming. 
-<br>
+<br><br>
 ## Future Research 
 Future research should prioritize exploring the overlaps between brain activity evoked by 
 dreamed and experienced auditory, olfactory, and gustatory stimuli. The limited focus on these 
 sensory modalities has restricted our understanding of the multisensory nature of dreams. 
 Expanding decoding research on olfactory and gustatory perceptions is crucial to gaining a more 
 comprehensive understanding of how these experiences are represented in the brain. 
-<br>
+<br><br>
 In addition to sensory modalities, comprehensive dream decoding should emphasize more 
 abstract experiences, such as inner speech, thoughts, and emotions. For example, Liwicki et al. 
 (2022) successfully decoded 5 vowels and 6 words from inner speech with 35.20% and 29.21% 
@@ -131,21 +131,21 @@ suggesting that emotion decoding in dreams may benefit from existing research on
 emotional processing. Similarly, Lu et al. (2020) identified positive and negative emotions in awake 
 subjects with 85.11% accuracy via EEG signals, highlighting the feasibility of emotion decoding in 
 dream states. 
-<br>
+<br><br>
 ## Conclusion 
 In this paper, we introduced the concept of neural decoding and explored its application in 
 the context of dreams. We reviewed the progress in decoding various modalities of dreams, 
 highlighting both achievements and current limitations. Furthermore, we identified future 
 directions for research, emphasizing the potential for advancing our understanding of dreams and 
 their underlying neural mechanisms. 
-<br>
+<br><br>
 The development of more sophisticated and accurate techniques for dream decoding 
 across all sensory and cognitive modalities will significantly enhance our ability to study dreams. 
 These advancements could reduce reliance on subjective self-reports, minimizing the need to 
 disrupt participants' sleep to gather data. Moreover, improved decoding models may enable the 
 exploration of topics that are currently inaccessible, such as dreaming in animals or individuals in 
 comatose states. 
-<br>
+<br><br>
 As neural decoding technologies advance, it is critical to consider the ethical implications 
 of reconstructing private mental experiences. Questions surrounding privacy, consent, and the 
 regulation of such technologies must be addressed proactively to ensure their responsible use. We 
@@ -154,7 +154,7 @@ scientific progress with the protection of individual rights.
 By advancing dream decoding techniques and addressing the associated ethical 
 challenges, this field has the potential to revolutionize dream research, providing profound insights 
 into the human mind and consciousness. 
-<br>
+<br><br>
 # References 
 1. Gerven, M., Seeliger, K., Güçlü, U., & Güçlütürk, Y. (2019). Current advances in neural 
 decoding. In A. Holzinger, R. Goebel, M. Mengel, & H. Müller (Eds.), _Explainable AI: 
