@@ -8,14 +8,14 @@ provides a framework for addressing a fundamental question in neuroscience: how 
 encode sensory and motor experiences through its activity? Neural decoding interprets which 
 properties of stimuli are encoded in specific brain regions, offering insights into cognitive processes 
 such as imagery, memory, and dreaming (van Gerven et al., 2019 p. 379). 
-<br>
+<br> <br>
 Machine learning is a common approach for creating "neural decoders". These algorithms 
 are trained to predict stimuli from previously observed brain activity for different stimuli (van Gerven 
 et al., 2019). The methods have demonstrated various levels of statistically significant success in 
 decoding multiple modalities in multiple contexts. Horikawa et al. (2013) decoded visual stimuli in 
 dreams. In non-sleep-related areas, Bellier et al. (2023) reconstructed music from brain activity, 
 and Güçlütürk et al. (2017) reconstructed pictures of observed faces. 
-<br>
+<br><br>
 This paper focuses on the application of neural decoding to dream research. By examining 
 current methodologies and identifying limitations, this paper explores the future potential of 
 decoding abstract and multimodal experiences during sleep. 
